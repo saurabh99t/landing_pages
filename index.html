@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/d1fe59ecaa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+  </head>
+  <body>
+    <div class="container">
+      <!-- ----------- Navbar --------------------- -->
+
+      <nav>
+        <div class="navbar">
+          <!-- <a href="#" class="logo">Logo</a> -->
+
+          <div class="logo">
+            <img src="./650aa72e8e8247b79c7219a093b5a282.png" alt="" />
+          </div>
+
+          <div class="buttons">
+            <div class="btn1">
+              <button class="btnall">Candidates Login</button>
+            </div>
+
+            <div class="btn2">
+              <button class="btnall">Employer Login</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- ----------- Navbar --------------------- -->
+
+      <!-- ----------------- Section strt ------------ -->
+
+      <div class="section">
+        <!-- ************  Section 1 -->
+        <div class="outer-section">
+
+
+
+          <div class="inner-section1">
+            <!-- ------ -->
+            <div class="para_sec">
+              <p id="para_sec_p1">Get Your Dream Job Today</p>
+              
+              <!-- <br> -->
+            </div>    
+            <!-- ------ -->
+            <div class="searchbar_sec1">
+              <div class="search-bar">
+                <select id="location-dropdown">
+                  <option value="">Select Location</option>
+                  <option value="london">London</option>
+                  <option value="new-york">New York</option>
+                  <option value="paris">Paris</option>
+                  <!-- Add more location options as needed -->
+                </select>
+      
+                <select id="type-dropdown">
+                  <option value="">Select Type</option>
+                  <option value="restaurant">Restaurant</option>
+                  <option value="hotel">Hotel</option>
+                  <option value="attraction">Attraction</option>
+                  <!-- Add more type options as needed -->
+                </select>
+      
+                <button  id="btnsearch" onclick="search()">Search</button>
+              </div>
+            </div>
+      
+            
+      
+         
+      
+            <!-- ------ -->
+          </div>
+      
+          <div class="inner-section2">
+            <div class="img_sec1">
+              <img src="./asset 21.png" alt="" height="500px" />
+            </div>
+          </div>
+        </div>
+       
+
+        <!-- ************  Section 1  ends   -->
+
+        <!-- ********  Section 2 Starts  -->
+
+        <!-- -------- 💯💯💯💯💯💯💯💯💯 -->
+
+        <div class="section2">
+          <div class="section2A">
+            <h1>Discover jobs for you</h1>
+            <p style="color: blue; margin: 0; font-size: 20px">
+              Browse 500+ Top Jobs In Your Local City.
+            </p>
+          </div>
+
+          <div class="section2B">
+            <div class="All-Categories">
+              <!-- <h2>Tabs</h2>
+<p>CLick on the buttons inside the tabbed menu:</p> -->
+
+              <div class="tab">
+                <button
+                  class="tablinks"
+                  onmouseover="openCity(event, 'London')"
+                >
+                  All Categories
+                </button>
+                <button class="tablinks" onmouseover="openCity(event, 'Paris')">
+                  Programming & IT
+                </button>
+                <button class="tablinks" onmouseover="openCity(event, 'Tokyo')">
+                  Finance & Accounting
+                </button>
+                <button class="tablinks" onmouseover="openCity(event, 'Paris')">
+                  Marketting
+                </button>
+                <button class="tablinks" onmouseover="openCity(event, 'Tokyo')">
+                  Medical
+                </button>
+              </div>
+
+              <div id="London" class="tabcontent">
+                <div class="div_contentmommy">
+                  <div class="card-row">
+                    <div class="card">
+                      <p id="Creative_card">Creative & Art</p>
+                      <p id="Job_Id"><a href="#">School Teacher</a></p>
+                      <pre> <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> New York   <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> Full Time </pre>
+                      <div class="imgcard_and_button">
+                        <div class="img_card">
+                          <div>
+                            <img src="./Google__G__Logo.svg" alt="Image 1" />
+                          </div>
+                          <div id="label_hr_ago">
+                            <label for=""
+                              ><a href="#" style="text-decoration: none"
+                                >Google Solutions</a
+                              ></label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <p id="Creative_card">Creative & Art</p>
+                      <p id="Job_Id"><a href="#">School principal</a></p>
+                      <pre> <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> New York   <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> Full Time </pre>
+                      <div class="imgcard_and_button">
+                        <div class="img_card">
+                          <img src="./Google__G__Logo.svg" alt="Image 1" />
+                          <label for=""
+                            ><a href="#" style="text-decoration: none"
+                              >Google Solutions</a
+                            ></label
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <p id="Creative_card">Creative & Art</p>
+                      <p id="Job_Id">
+                        <a href="#">User Expirience Designer Solution</a>
+                      </p>
+                      <pre> <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> New York   <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> Full Time </pre>
+                      <div class="imgcard_and_button">
+                        <div class="img_card">
+                          <img src="./Google__G__Logo.svg" alt="Image 1" />
+                          <label for=""
+                            ><a href="#" style="text-decoration: none"
+                              >Google Solutions</a
+                            ></label
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="btn_findmore">
+                  <button class="btnall">Find More</button>
+                </div>
+              </div>
+
+              <div id="Paris" class="tabcontent">
+                <div class="div_contentmommy">
+                  <div class="card-row">
+                    <div class="card">
+                      <p id="Creative_card">Creative & Art</p>
+                      <p id="Job_Id">
+                        <a href="#">User Expirience Designer Solution</a>
+                      </p>
+                      <pre> <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> New York   <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> Full Time </pre>
+                      <div class="imgcard_and_button">
+                        <div class="img_card">
+                          <div>
+                            <img src="./Google__G__Logo.svg" alt="Image 1" />
+                          </div>
+                          <div id="label_hr_ago">
+                            <label for=""
+                              ><a href="#" style="text-decoration: none"
+                                >Google Solutions</a
+                              ></label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <p id="Creative_card">Creative & Art</p>
+                      <p id="Job_Id">
+                        <a href="#">User Expirience Designer Solution</a>
+                      </p>
+                      <pre> <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> New York   <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> Full Time </pre>
+                      <div class="imgcard_and_button">
+                        <div class="img_card">
+                          <img src="./Google__G__Logo.svg" alt="Image 1" />
+                          <label for=""
+                            ><a href="#" style="text-decoration: none"
+                              >Google Solutions</a
+                            ></label
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <p id="Creative_card">Creative & Art</p>
+                      <p id="Job_Id">
+                        <a href="#">User Expirience Designer Solution</a>
+                      </p>
+                      <pre> <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> New York   <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> Full Time </pre>
+                      <div class="imgcard_and_button">
+                        <div class="img_card">
+                          <img src="./Google__G__Logo.svg" alt="Image 1" />
+                          <label for=""
+                            ><a href="#" style="text-decoration: none"
+                              >Google Solutions</a
+                            ></label
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="btn_findmore">
+                  <button class="btnall">Find More</button>
+                </div>
+              </div>
+
+              <div id="Tokyo" class="tabcontent">
+                <div class="div_contentmommy">
+                  <div class="card-row">
+                    <div class="card">
+                      <p id="Creative_card">Creative & Art</p>
+                      <p id="Job_Id"><a href="#">School Teacher</a></p>
+                      <pre> <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> New York   <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> Full Time </pre>
+                      <div class="imgcard_and_button">
+                        <div class="img_card">
+                          <div>
+                            <img src="./Google__G__Logo.svg" alt="Image 1" />
+                          </div>
+                          <div id="label_hr_ago">
+                            <label for=""
+                              ><a href="#" style="text-decoration: none"
+                                >Google Solutions</a
+                              ></label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <p id="Creative_card">Creative & Art</p>
+                      <p id="Job_Id"><a href="#">School principal</a></p>
+                      <pre> <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> New York   <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> Full Time </pre>
+                      <div class="imgcard_and_button">
+                        <div class="img_card">
+                          <img src="./Google__G__Logo.svg" alt="Image 1" />
+                          <label for=""
+                            ><a href="#" style="text-decoration: none"
+                              >Google Solutions</a
+                            ></label
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <p id="Creative_card">Creative & Art</p>
+                      <p id="Job_Id">
+                        <a href="#">User Expirience Designer Solution</a>
+                      </p>
+                      <pre> <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> New York   <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> Full Time </pre>
+                      <div class="imgcard_and_button">
+                        <div class="img_card">
+                          <img src="./Google__G__Logo.svg" alt="Image 1" />
+                          <label for=""
+                            ><a href="#" style="text-decoration: none"
+                              >Google Solutions</a
+                            ></label
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="btn_findmore">
+                  <button class="btnall">Find More</button>
+                </div>
+              </div>
+
+              <div id="Paris" class="tabcontent">
+                <div class="div_contentmommy">
+                  <div class="card-row">
+                    <div class="card">
+                      <p id="Creative_card">Creative & Art</p>
+                      <p id="Job_Id">
+                        <a href="#">User Expirience Designer Solution</a>
+                      </p>
+                      <pre> <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> New York   <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> Full Time </pre>
+                      <div class="imgcard_and_button">
+                        <div class="img_card">
+                          <div>
+                            <img src="./Google__G__Logo.svg" alt="Image 1" />
+                          </div>
+                          <div id="label_hr_ago">
+                            <label for=""
+                              ><a href="#" style="text-decoration: none"
+                                >Google Solutions</a
+                              ></label
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <p id="Creative_card">Creative & Art</p>
+                      <p id="Job_Id">
+                        <a href="#">User Expirience Designer Solution</a>
+                      </p>
+                      <pre> <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> New York   <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> Full Time </pre>
+                      <div class="imgcard_and_button">
+                        <div class="img_card">
+                          <img src="./Google__G__Logo.svg" alt="Image 1" />
+                          <label for=""
+                            ><a href="#" style="text-decoration: none"
+                              >Google Solutions</a
+                            ></label
+                          >
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <p id="Creative_card">Creative & Art</p>
+                      <p id="Job_Id">
+                        <a href="#">User Expirience Designer Solution</a>
+                      </p>
+                      <pre> <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> New York   <i class='fas fa-map-marker-alt' style="font-size: 15px;"></i> Full Time </pre>
+                      <div class="imgcard_and_button">
+                        <div class="img_card">
+                          <img src="./Google__G__Logo.svg" alt="Image 1" />
+                          <label for=""
+                            ><a href="#" style="text-decoration: none"
+                              >Google Solutions</a
+                            ></label
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="btn_findmore">
+                  <button class="btnall">Find More</button>
+                </div>
+              </div>
+
+              <script>
+                function openCity(evt, cityName) {
+                  var i, tabcontent, tablinks;
+
+                  tabcontent = document.getElementsByClassName("tabcontent");
+
+                  for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                  }
+
+                  tablinks = document.getElementsByClassName("tablinks");
+
+                  for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(
+                      "active",
+                      ""
+                    );
+                  }
+
+                  document.getElementById(cityName).style.display = "block";
+                  evt.currentTarget.className += "active";
+                }
+              </script>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- <div class="banner_section">
+          <h2>Apply Now</h2>
+        </div> -->
+        <!-- -------- 💯💯💯💯💯💯💯💯💯 -->
+
+
+
+
+        <!-- trusted partner -->   
+        
+        <div class="Trusted_partner">
+          <div class="containerZ">
+            <h1>Our Trusted Hiring Partners</h1>
+          <div class="faders">
+            <div class="left"></div>
+            <div class="right"></div>
+          </div>
+        
+          <div class="items">
+            <div class="entry">
+                <p class="name">Google</p>
+                <img src="pngwing.com.png" alt="Smiling person" />
+                <p class="quote">"Best Website to Hire talent"</p>
+              </div>
+        
+              <div class="entry">
+                <p class="name">Facebook</p>
+                <img src="pngwing.com.png" alt="Smiling person" />
+                <p class="quote">"Best Website to Hire talent"</p>
+              </div>
+        
+              <div class="entry">
+                <p class="name">Twitter</p>
+                <img src="pngwing.com.png" alt="Smiling person" />
+                <p class="quote">"Best Website to Hire talent"</p>
+              </div>
+        
+              <div class="entry">
+                <p class="name">Tesla</p>
+                <img src="pngwing.com.png" alt="Smiling person" />
+                <p class="quote">"Best Website to Hire talent"</p>
+              </div>    
+        
+              <div class="entry">
+                <p class="name">Tencent</p>
+                <img src="pngwing.com.png" alt="Smiling person" />
+                <p class="quote">"Best Website to Hire talent"</p>
+              </div>
+        
+        
+            <!--  -->
+        
+         
+        
+        
+        
+        
+        
+              
+          </div>
+        </div>
+        </div>
+        
+        <!-- trusted partner -->
+
+        <!-- <div class="banner_section">
+          <h2>We Are Best.</h2>
+        </div> -->
+
+
+
+
+
+
+
+
+<!-- ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ -->
+
+        <!-- ================================= -->
+
+        <div class="browse_category">
+
+  
+
+          <div class="Zection1">
+              <div>
+                  <p>Jobs for all</p>
+              </div>
+              <div>
+                  <h1>Browse Top Categories  </h1>
+              </div>
+        
+         
+          </div>
+          <div class="xection">
+              
+              <div class="xection1">
+      
+
+                  <div class="xec1">
+                      <i class="fa-solid fa-laptop"></i>
+                      <a href="">Design</a>
+                      <p>(653)</p>
+                  </div>
+      
+                  <div class="xec1" >
+                      <i class="fa-regular fa-newspaper"></i>
+                      <a href="#">Media </a>
+                      <p>(569)</p>
+                  </div>
+      
+                  <div class="xec1">
+                      <i class="fa-solid fa-gears"></i>
+                      <a href="">Mechanics</a>
+                      <p>(694)</p>
+                  </div>
+                  <div class="xec1" >
+                      <i class="fa-solid fa-scale-balanced"></i>
+                      <a href="">Lawyer</a>
+                      <p>(628)</p>
+                  </div>
+      
+              </div>
+      
+              <div class="xection2">
+                  <div class="xec2" >
+                      <i class="fa-solid fa-scale-balanced"></i>
+                      <a href="">Lawyer</a>
+                      <p>(628)</p></div>
+                  <div class="xec2" >
+                      <i class="fa-solid fa-gears"></i>
+                      <a href="">Mechanics</a>
+                      <p>(694)</p>
+                  </div>
+                  <div class="xec2" >
+                      <i class="fa-regular fa-newspaper"></i>
+                      <a href="#">Media</a>
+                      <p>(569)</p>
+                  </div>
+                  <div  class="xec2">
+                      <i class="fa-solid fa-laptop"></i>
+                      <a href=""> Creative</a>
+                      <p>(653)</p>
+                  </div>
+              </div>
+          </div>
+
+
+
+
+
+      
+          <div class="btn_categorywala">
+              <button class="btnall">Browse All Sections</button>
+          </div>
+      
+      
+      </div>
+
+
+
+
+        
+
+
+        <!-- ================================= -->
+
+        
+<!-- ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ -->
+
+
+        <!-- ********  Section 2 ends -->
+
+        <div class="section_newsletter">
+          <section class="wrapper">
+            <div class="content">
+              <header>
+                <h1>Subscribe Our Newsletter</h1>
+              </header>
+              <section>
+                <p>
+                  Get Job Updates
+                </p>
+              </section>
+              <footer>
+                <input type="email" placeholder="Enter your email" />
+                <button class="btnall">Let's go</button>
+              </footer>
+            </div>
+          </section>
+        </div>
+
+
+
+
+
+        <footer class="footer" >
+          <div class="container">
+            <div class="footer-content">
+              <div class="footer-section">
+                <h3 class="footer-heading">Join Our Team</h3>
+                <p class="footer-text">We're constantly on the lookout for talented individuals to join our dynamic team. Explore exciting career opportunities and unlock your potential today.</p>
+              </div>
+              <div class="footer-section">
+                <h3 class="footer-heading">Contact Us</h3>
+                <ul class="footer-list">
+                  <li>Email: info@companyname.com</li>
+                  <li>Phone: +1 (555) 123-4567</li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <h3 class="footer-heading">Connect with Us</h3>
+                <ul class="footer-social">
+                  <li><a href="#" class="social-icon"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="#" class="social-icon"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a></li>
+                  <li><a href="#" class="social-icon"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <p class="footer-text">Privacy Policy | Terms of Service | Copyright ©
+                <script>document.write(new Date().getFullYear());</script> Company Name. All rights reserved.</p>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <!-- ----------------- Section end------------ -->
+
+      <!--  -->
+    </div>
+
+    <!-- <script src="script.js"></script> -->
+
+    <!-- javascript for search bar  -->
+
+    <script>
+      function search() {
+        var location = document.getElementById("location-dropdown").value;
+        var type = document.getElementById("type-dropdown").value;
+
+        // Perform your search operation based on the location and type inputs
+        // For example, you can make an API request or perform a local search algorithm
+
+        // Display the search results or take further action based on your implementation
+      }
+    </script>
+  </body>
+</html>

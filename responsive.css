@@ -1,0 +1,437 @@
+
+
+
+@media (max-width:1024px) {
+
+    .containerZ{
+      margin: 0;
+    }
+    
+    
+    #btnsearch{
+      background-color: #021B79;
+      color: white;
+    
+      height: 51px;
+    
+      width: 70px;
+      padding: 10px 12px ;
+    }
+    
+    
+    
+    .card{
+    height: 230px;
+    }
+    
+    
+    .section2B{
+      min-height: 460px;
+    }
+    
+        .img_sec1 img{
+          padding-top: 150px;
+          height: 50%;
+          width: 80%;
+        }
+      
+        .section1_masterdiv{
+          margin-top:50px;
+          padding-left: 70px;
+        }
+      
+    
+    
+      
+      
+        .search-bar {
+          display: flex;
+          align-items: center;
+          background-color:  rgb(255, 255, 255);
+        
+          display: inline-block;
+          border-radius: 20px;
+          margin-top: 40px;
+        
+          /* padding-top: 150px; */
+          /* margin-left: 200px; */
+          
+        }
+        
+        
+        
+        .search-bar select {
+          /* margin-right: 10px;     */
+          border: none;
+          outline: none;
+          background-color: rgb(255, 255, 255); 
+          border-bottom: 2px solid rgba(128, 128, 128, 0.493) ; 
+        
+          padding: 5px 8px ;
+          width: 135px;
+          height: 52px;
+        
+         
+          /* border: 2px solid rgb(255, 0, 0);     */
+        
+        justify-content: space-around;
+          
+        }
+        
+        .search-bar button {
+          padding: 5px 10px;
+          background-color: rgb(17, 0, 255);
+          /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 75%); */
+        
+          border: 1px solid black;
+          color: white;
+          border: none;
+          cursor: pointer;
+          font-size: 15px;
+          height: 40px; 
+          width: 60px;
+          border-radius: 0 10px 10px 0 ;
+        
+        }
+      
+      
+        .section2A h1{
+          margin-top: 5px;
+          font-size: 2.5rem;
+        }
+        
+        .section2A p{
+          margin-top: 5px;
+          font-size: 1.4rem;
+        }
+    
+    
+        .btn_categorywala button{
+          /* margin-top:48px; */
+        }
+    
+    
+        .section_newsletter{
+          padding-top: 50px;
+        }
+    
+        .xec1 i{
+          font-size: 46px;
+        }
+    
+        .xec2 i{
+          font-size: 46px;
+        }
+    
+    
+        .xec1{
+          height: 158px;
+        }
+        .xec2{
+          height: 158px;
+        }
+    
+    
+        .xection{
+          height: 30vh;    
+          /* doubt 55vh thi */
+          min-height: 400px;
+        }
+    
+    
+        .btn_findmore button{
+          margin-top: 21px;
+        }
+      
+      }
+      
+      
+      
+      
+      @media (max-width: 768px) {
+    
+    
+    
+        .inner-section1{
+          padding-top: 90px;
+          width: 100%;
+        }
+    
+        .section1A{
+          margin-top: 0;
+        }
+    
+    
+        .img_sec1 img{
+          padding-top: 0px;
+          width:100%;  
+          height: 40%;
+          margin:0 auto;
+        }
+    
+        .buttons button {
+            margin-right: 10px;
+            padding: 16px 10px;
+            /* background-color: #ffffff; */
+            border-radius: 50px;
+            font-size: 10px;
+            transition: 0.5s ease-out;
+            border: 1px solid rgba(0, 0, 0, 0.367);
+        }
+    
+    
+        .section1A {
+            /* background-color: aqua; */
+            width: 100%;
+            /* margin-left: 25%; */
+            /* justify-content: center;
+            align-items: center; */
+            height: 45%;
+        }
+    
+        #para_sec_p1{
+            font-size: 25px;
+        }
+    
+    
+    .xection{
+        height: 40vh;
+    }
+    
+    
+        .xec1{
+            height: 165px;
+        }
+    
+        .xec2{
+            height: 165px;
+        }
+      
+        .xec1 i{
+            font-size: 20px;
+            color: rgb(22, 119, 255);
+          }
+    
+          .xec1 a{
+            font-size: 12px;
+          }
+    
+          .xec2 i{
+            font-size: 20px;
+            color: rgb(22, 119, 255);
+          }
+    
+          .xec1{
+            gap: 5px;
+          }
+    
+          .xection1{
+             gap: 20PX;
+          }
+    
+          .xection2{
+            gap: 20PX;
+                  }
+    
+    
+        .tab button{
+    font-size: 12px;
+        }
+        .card{
+            height: 230px;
+            
+            }
+            
+            .card-row{
+                flex-direction: column;
+            }
+            .section2B{
+                height: 1125px;
+                background-color: white;
+            }
+    
+        .section1{
+          flex-direction: column-reverse;
+          margin-left: 30%;
+        }
+        /* .img_sec1 img{
+          padding-top: 180px;
+    
+    margin-left: 37%;
+      height: 190px;
+      width: 190px; 
+        } */
+      
+        .section1_masterdiv{
+          margin-top:50px;
+          padding-left: 70px;
+        }
+      
+        .search-bar {
+          display: flex;
+          align-items: center;
+          /* .:  rgb(255, 255, 255); */
+        
+          display: inline-block;
+          border-radius: 20px;
+          /* margin-top: 40px; */
+        
+          /* padding-top: 150px; */
+          /* margin-left: 200px; */
+          
+        }
+        
+        
+        
+        .search-bar select {
+          /* margin-right: 10px;     */
+          border: none;
+          outline: none;
+          /* .: rgb(255, 255, 255);  */
+          border-bottom: 2px solid rgba(128, 128, 128, 0.493) ; 
+        
+          padding: 10px 12px ;
+          width: 200px;
+          height: 51px;
+        
+         
+          /* border: 2px solid rgb(255, 0, 0);     */
+        
+        justify-content: space-around;
+          
+        }
+        
+        .search-bar button {
+          padding: 5px 10px;
+          /* .: rgb(17, 0, 255); */
+          /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 75%); */
+        
+          border: 1px solid black;
+          color: white;
+          border: none;
+          cursor: pointer;
+          font-size: 15px;
+          height: 51px; 
+          width: 70px;
+          border-radius: 0 10px 10px 0 ;
+        
+        }
+        
+        
+        .section-bar ,button:hover{
+          /* .: rgb(6, 0, 112); */
+          color: rgb(255, 255, 255) ;
+        }
+        
+      
+        .section2A h1{
+          margin-top: 105px;
+          font-size: 1.8rem;
+        }
+      
+        .section2A p{
+          margin-top: 5px;
+          font-size: 1.4rem;
+        }
+        
+    
+    
+    
+    
+        /* -------------------------- */
+        
+        .section_newsletter {
+            padding-top: 20px;
+            margin-bottom: 50px;
+            width: 100%;
+            height: 300px;
+        }
+    
+       footer button{
+        margin-top: 15px;
+        margin-bottom: 0;
+       }
+    
+       .footer-section{
+        height: 65px;
+       }
+      
+    
+       .entry{
+        width: 253px;
+        height: 266px;
+       }
+    
+    
+    
+    
+    
+      }
+    
+    
+    
+    
+    
+    
+    
+      @media (max-width:505px ) {
+        
+        .search-bar select {
+          /* margin-right: 10px;     */
+          border: none;
+          outline: none;
+          /* .: rgb(255, 255, 255);  */
+          border-bottom: 2px solid rgba(128, 128, 128, 0.493) ; 
+        
+          padding: 10px 12px ;
+          width: 120px;
+          height: 40px;
+        
+        
+         
+          /* border: 2px solid rgb(255, 0, 0);     */
+        
+        justify-content: space-around;
+          
+        }
+      }
+    
+    
+    
+      @media (max-width:505px ) {
+        
+        .search-bar select {
+          /* margin-right: 10px;     */
+          border: none;
+          outline: none;
+          /* .: rgb(255, 255, 255);  */
+          border-bottom: 2px solid rgba(128, 128, 128, 0.493) ; 
+        
+          padding: 10px 12px ;
+          width: 100px;
+          height: 51px;
+        
+        
+         
+          /* border: 2px solid rgb(255, 0, 0);     */
+        
+        justify-content: space-around;
+          
+        }
+      }
+    
+    
+    
+    
+    
+      @media (max-width: 514px) {
+        .footer-section{
+          padding: 23px;
+        }
+    
+    
+        .tab button {
+          font-size: 8px;
+          padding: 8px 15px;
+        }
+      }
